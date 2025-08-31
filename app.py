@@ -56,6 +56,7 @@ def load_models():
         scaler_y = joblib.load(os.path.join(MODEL_DIR, "scaler_y.pkl"))
         return clf, lstm, scaler_X, scaler_y
     except Exception as e:
+        st.error(f"Gagal memuat model/scaler: {e}")
         return None, None, None, None
 
 def get_coords(city):
@@ -357,3 +358,4 @@ if st.button("🔎 Prediksi"):
 # -------------------------
 st.markdown("---")
 st.markdown("Fauzan Ramadhan - Universitas Gunadarma 2025.")
+
