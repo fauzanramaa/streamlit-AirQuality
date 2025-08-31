@@ -1,8 +1,9 @@
 streamlit
 pandas
-numpy
+numpy==1.25.2
 requests
 joblib
+scikit-learn==1.2.2
 tensorflow
 keras
 plotly
