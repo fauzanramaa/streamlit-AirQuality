@@ -1,9 +1,8 @@
-streamlit
-pandas
-numpy==1.25.2
-requests
-joblib
-scikit-learn==1.2.2
-tensorflow
-keras
-plotly
+streamlit==1.49.1
+pandas==2.3.2
+numpy==1.26.4
+tensorflow==2.20.0
+scikit-learn==1.7.1
+plotly==6.3.0
+setuptools>=69.0.0
+wheel>=0.40.0
